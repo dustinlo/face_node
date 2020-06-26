@@ -24,7 +24,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-app.get('/', (req, res) => res.send(database.users))
+app.get('/', (req, res) => res.send("it's wroking"))
 
 //signin
 // this automatically gets response so I dont have to specify, go with signin.js 
